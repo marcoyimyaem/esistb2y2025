@@ -6,6 +6,56 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayLesson",
+            "request": "launch",
+            "mainClass": "chapter3.ArrayLesson",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "StringLesson",
+            "request": "launch",
+            "mainClass": "chapter3.StringLesson",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "LoopsLesson",
+            "request": "launch",
+            "mainClass": "chapter2.LoopsLesson",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "IfStatementLesson",
+            "request": "launch",
+            "mainClass": "chapter2.IfStatementLesson",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "EqualityOperator",
+            "request": "launch",
+            "mainClass": "chapter2.EqualityOperator",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "OperatorsLesson",
+            "request": "launch",
+            "mainClass": "chapter2.OperatorsLesson",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceLesson",
+            "request": "launch",
+            "mainClass": "chapter1.ReferenceLesson",
+            "args": "${command:SpecifyProgramArgs}",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
             "name": "PrimitivesLesson",
             "request": "launch",
             "mainClass": "chapter1.PrimitivesLesson",

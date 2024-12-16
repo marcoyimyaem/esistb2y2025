@@ -33,6 +33,5 @@ class Name{
         System.out.println(name1.full);
         name1.first ="Anton";
         name1.last = "Racal";
-        System.out.println(name1.full);
     }
 }
