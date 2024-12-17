@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayListLesson",
+            "request": "launch",
+            "mainClass": "chapter3.ArrayListLesson",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
             "name": "ArrayLesson",
             "request": "launch",
             "mainClass": "chapter3.ArrayLesson",
