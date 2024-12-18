@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DatesAndTimeLesson",
+            "request": "launch",
+            "mainClass": "chapter3.DatesAndTimeLesson",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
             "name": "ArrayListLesson",
             "request": "launch",
             "mainClass": "chapter3.ArrayListLesson",
