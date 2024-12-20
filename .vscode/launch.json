@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ReturnType",
+            "request": "launch",
+            "mainClass": "chapter4.ReturnType",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "ClassZ",
+            "request": "launch",
+            "mainClass": "chapter4.ClassZ",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "MoonFlower",
+            "request": "launch",
+            "mainClass": "otherFolder.MoonFlower",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "AccessModifier",
+            "request": "launch",
+            "mainClass": "chapter4.AccessModifier",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
             "name": "DatesAndTimeLesson",
             "request": "launch",
             "mainClass": "chapter3.DatesAndTimeLesson",
