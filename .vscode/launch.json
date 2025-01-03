@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClassY",
+            "request": "launch",
+            "mainClass": "chapter4.ClassY",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
+            "name": "VarArgsLesson",
+            "request": "launch",
+            "mainClass": "chapter4.VarArgsLesson",
+            "projectName": "esistb2y2025_cc667530"
+        },
+        {
+            "type": "java",
             "name": "ReturnType",
             "request": "launch",
             "mainClass": "chapter4.ReturnType",

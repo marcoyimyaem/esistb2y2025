@@ -1,6 +1,7 @@
 package otherFolder;
 import chapter1.*;
 import chapter4.AccessModifier;
+import chapter4.VarArgsLesson;
 public class SunFlower {
     public static void main(String[] args) {
         Toy toy1 = new Toy();
@@ -18,5 +19,7 @@ class MoonFlower extends AccessModifier{
         mf.greetMe();
         mf.greetMe3();
         // mf.greetMe4();
+        System.out.println(VarArgsLesson.getEarthsGravity());
+        System.out.println(VarArgsLesson.MarsGravity);
     }
 }
