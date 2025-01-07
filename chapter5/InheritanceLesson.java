@@ -109,3 +109,36 @@ class Dog extends Mammal{
     }
 
 }
+abstract interface CanBurrow{
+    public static final int MINIMUM_DEPTH = 2;
+    public abstract int getMaximumDepth();
+}
+interface CanBurrow2 extends CanBurrow{
+    int MINIMUM_DEPTH2 = 2;
+    int getMaximumDepth2();
+    default int getMinDepth(){
+        return 1;
+    }
+    static boolean isInWater(){
+        return false;
+    }
+
+}
+class FieldMouse extends Hayop implements CanBurrow,CanBurrow2{
+    public int getMaximumDepth(){
+        return MINIMUM_DEPTH -1;
+    }
+    public int getMaximumDepth2(){
+        return MINIMUM_DEPTH;
+    }
+    @Override
+    public String getName() {
+        return name;}
+    @Override
+    int getAge() {
+        return age;
+        }
+    @Override
+    void setAge(int age) {
+        }
+}
