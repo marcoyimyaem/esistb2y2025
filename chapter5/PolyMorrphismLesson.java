@@ -20,9 +20,29 @@ public class PolyMorrphismLesson {
         System.out.println(lemur.age);
         System.out.println(lemur.hasHair());
         // System.out.println(lemurAsObject);
+        // Fish fish = new Fish();
+        // Bird bird = (Bird) fish;
+
+        // Rodent rodent = new Rodent();
+        // CapyBara capyBara = (CapyBara) rodent;
+        
+        CapyBara capyBara = new CapyBara();
+        Rodent rodent = capyBara;
+        // Virtual method
+        Bird bird = new Bird();
+        Bird bird2 = new Peacock();
+        Bird bird3  = new Maya();
+        bird.displayInformation();
+        bird2.displayInformation();
+        bird3.displayInformation();
+        ZooWorker.feed(new Reptile());
+        ZooWorker.feed(new Alligator());
+        ZooWorker.feed(new Crocodile());
+        ZooWorker.feed(new ComodoDragon());
+        Reptile c1 = new Crocodile();
     }
-    
 }
+
 class Lemur extends Primate implements HasTail{
     int age = 10;
 
@@ -40,3 +60,49 @@ class Primate{
     }
 }
 
+class Bird{ 
+    public String getName(){
+        return "unknown";
+    }
+    public void displayInformation(){
+        System.out.println("the bird name is:"+getName());
+    }
+}
+class Peacock extends Bird{
+    public String getName(){
+        return "Peacock";
+    }
+}
+class Maya extends Bird{
+    public String getName(){
+        return "Maya";
+    }
+}
+class Fish{}
+
+class Rodent{}
+
+class CapyBara extends Rodent{
+
+}
+
+class Reptile{
+    public String getName(){
+        return getClass().getSimpleName();
+        // return "Reptile";
+    }
+}
+class Alligator extends Reptile{
+    
+}
+class Crocodile extends Reptile{
+    
+}
+class ComodoDragon extends Reptile{
+
+}
+class ZooWorker{
+    public static void feed(Reptile reptile){
+        System.out.println("Feeding reptile: "+reptile.getName());
+    }
+}
